@@ -1,4 +1,4 @@
 steps:
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['npm', 'run', 'install']
-
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: ['scripts/install.bash','--buildscripts']
