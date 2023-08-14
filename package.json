@@ -1,0 +1,12 @@
+{
+  "name": "cicd-gchat-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "bash ./scripts/install.bash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
